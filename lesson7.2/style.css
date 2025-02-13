@@ -1,0 +1,92 @@
+.bww_logo{
+    width: 28px;
+    height: 28px;
+}
+.navigation-link{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 12px;
+    font-family: "Oswald", sans-serif;
+}
+a:hover{
+    color: red;
+}
+.navigation-menu{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 5px;
+}
+main{
+    text-align: center;
+    height: 100vh;
+    background-color: black;
+}
+body{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: blanchedalmond;
+}
+.wal-logo{
+    width: 160px;
+    position: relative;
+    top: 60px;
+}
+.touts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 20px;
+}
+.tout {
+    width: calc(33.33% - 20px);
+    min-width: 250px;
+}
+.tout-wrap {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.tout-wrap:hover {
+    transform: scale(1.05);
+}
+.hisrc {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.featured-videos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.featured-videos-container img {
+    width: 500%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.featured-videos-container img:hover{
+    transform: scale(1.05);
+}
